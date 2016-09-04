@@ -1,0 +1,23 @@
+{
+  "name": "idiff",
+  "version": "1.0.0",
+  "description": "interactive diff for mercurial",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/alveflo/idiff.git"
+  },
+  "author": "Victor Alveflo <victor.alveflo@gmail.com>",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/alveflo/idiff/issues"
+  },
+  "homepage": "https://github.com/alveflo/idiff#readme",
+  "dependencies": {
+    "figures": "^1.7.0",
+    "inquirer": "^1.1.3"
+  }
+}
