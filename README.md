@@ -1,2 +1,2 @@
-# hg-idiff
-interactive diff for mercurial
+# idiff
+Interactive diff for git and mercurial
