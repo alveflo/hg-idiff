@@ -70,6 +70,9 @@ module.exports = function(filecmd, diffcmd) {
     for (var split in splitted) {
       split = splitted[split];
       if (split === "") continue;
+      if (split.charAt(1) === " ") {
+        split = split.substr(2, split.length);
+      }
       files.push(split);
     }
     var selected = 0;
